@@ -24,7 +24,7 @@ public class SetTest {
     }
     
     @Test
-    void sizeTest() {
+    public void sizeTest() {
         
         // when
         int size = 3;
@@ -39,7 +39,7 @@ public class SetTest {
         
         // when
         boolean hasNumber = numbers.contains(input);
-    
+        
         // then
         assertThat(hasNumber).isTrue();
     }
